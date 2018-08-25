@@ -8,6 +8,6 @@
 
 [Урок 9](https://staslker.github.io/Lesson9/ "Сайт на Bootstrap") - зададие сайт на Bootstrap
 
-[Урок 9](https://staslker.github.io/lesson10/ "Файл css") - Файл css
+[Урок 10](https://staslker.github.io/lesson10/ "Файл css") - Файл css
 
 
