@@ -1,0 +1,16 @@
+img {
+	height: 150px;
+	width: 150px;
+}
+.row {
+	padding-top: 130px;
+}
+
+h1 {
+	padding-top: 50px;
+	text-align: center;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #333333;
+}
