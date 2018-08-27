@@ -12,8 +12,8 @@
 
 [Урок 10B](https://staslker.github.io/Lesson10б/ "Файл LESS") - Файл LESS
 
-[Урок 11](https://staslker.github.io/Lesson11/ "урок EMMET") - урок EMMET
+[Урок 11](https://staslker.github.io/Lesson11 "урок EMMET") - урок EMMET
 
-[Урок 12](https://staslker.github.io/Lesson11/ "создание формы Pixel Perfect") - создание формы Pixel Perfect 
+[Урок 12](https://staslker.github.io/Lesson12/"создание формы Pixel Perfect") - создание формы Pixel Perfect 
 
 
