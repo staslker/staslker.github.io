@@ -1,0 +1,126 @@
+body {
+	background-image: url(img/bg_pattern.png);
+	background-repeat: repeat;
+	box-sizing: border-box;
+}
+
+.main-wrapper {
+	
+ 
+}
+
+.main-block {
+	height: 370px;
+	width: 320px;
+	background-color: #FAFDFD;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -160px;
+	margin-top: -195px;
+	border: solid  1px #CFDEDE;
+}
+
+.main-block h3 {
+	font-family: Arial;
+	color: #EBF7F7;
+	font-size: 12px;
+	font-weight: bold;
+	background: #01b3b3;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	padding-top: 7px;
+	text-transform: uppercase;
+	margin-left: 29px;
+	margin-top: -3px;
+
+}
+
+h5::after {
+    color: #01b3b3;
+    content: "*";
+    padding-left:3px;
+}
+
+
+.myform > h5 {
+	font-family: Arial;
+	color: #404040;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 29px;
+	padding-top: 23px;
+}
+
+
+.myinputmail {
+	background-image: url(img/bg_pattern.png);
+	width: 262px;
+	height: 32px;
+	margin-left: 28px;
+	margin-top: 2px;
+	border-radius: 2px;
+	border: 1px solid #CFDEDE;
+}
+
+.myinputmail + h5 {
+	padding-top: 6px;
+}
+
+.myinputpassword {
+	background-image: url(img/bg_pattern.png);
+	width: 262px;
+	height: 32px;
+	margin-left: 28px;
+	margin-top: 4px;
+	border-radius: 2px;
+	border: 1px solid #CFDEDE;
+}
+
+.myinputpassword + h5 {
+	padding-top: 8px;
+}
+
+
+.myinputpasswordconfirm {
+	background-image: url(img/bg_pattern.png);
+	width: 262px;
+	height: 32px;
+	margin-left: 28px;
+	border-radius: 2px;
+	border: 1px solid #CFDEDE;
+	
+}
+
+.myinputmail::placeholder {
+ 	font-family: Arial;
+ 	font-style: italic;
+	color: #A4A9A9;
+	font-size: 12px;
+	padding-left: 11px;
+	padding-top: 1px;
+}
+
+
+.myinputbutton {
+	height: 45px;
+	width: 260px;
+	margin-left: 29px;
+	margin-top: 36px;
+	background-color: #01b3b3;
+	color: #FFFFFF;
+	font-family: Arial;
+	text-transform:uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	border-style: none;
+}
+
+
+
+
+
+
+
