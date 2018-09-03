@@ -18,3 +18,4 @@
 
 [Урок 14](https://staslker.github.io/lesson14/index.html "создание шапки сайта гипрокартон") - создание шапки сайта гипрокартон 
 
+[Урок 14B](https://staslker.github.io/lesson14B/index.html "работа со шрифтами") - работа со шрифтами
