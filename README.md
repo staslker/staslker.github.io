@@ -25,3 +25,6 @@
 [Урок 15B](https://staslker.github.io/Lesson15B/ "псевдо классы и псевдоэлементы") - псевдо классы и псевдоэлементы
 
 [Урок 16](https://staslker.github.io/Lesson16/ "адаптивная верстка") - адаптивная верстка
+
+[Урок 16B](https://staslker.github.io/Lesson16B/ "слайдер") - слайдер
+
