@@ -29,3 +29,5 @@
 [Урок 16B](https://staslker.github.io/Lesson16B/ "слайдер") - слайдер
 
 [Урок 17](https://staslker.github.io/Lesson17/ "блок с преимуществами") - блок с преимуществами
+
+[Урок 17B](https://staslker.github.io/Lesson17B/ "Модальные окна") - Модальные окна
