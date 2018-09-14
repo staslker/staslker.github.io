@@ -28,3 +28,4 @@
 
 [Урок 16B](https://staslker.github.io/Lesson16B/ "слайдер") - слайдер
 
+[Урок 17](https://staslker.github.io/Lesson17/ "блок с преимуществами") - блок с преимуществами
