@@ -1,0 +1,1559 @@
+@font-face {
+font-family: 'Univers LT Pro 65 Bold';
+font-style: normal;
+ font-weight: bold;
+src: local('fonts/Univers LT Pro 65 Bold'), url('fonts/UniversLTPro-65Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Univers LT Pro 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Univers LT Pro 55 Roman'), url('fonts/UniversLTPro-55Roman.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Pro 45 Light';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Univers LT Pro 45 Light'), url('fonts/UniversLTPro-45Light.woff') format('woff');
+}
+
+body {
+  margin: 0;
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*main-slider*/
+.main-slider-image {
+  background-image: url("piano_main_slider.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*medium slider image on other pages*/
+.medium-slider-image {
+  background-image: url("piano_main_slider.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.main_slider_text {
+  /*text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  /*font-family: 'Univers LT Pro 65 Bold';
+  font-size: 24px;
+  letter-spacing: 1.6px;
+  font-weight: bold;*/
+  color: white;
+}
+
+
+
+/*other slider text*/
+.other_slider_text {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+font-family: 'Univers LT Pro 65 Bold';
+font-size: 24px;
+letter-spacing: 1.6px;
+font-weight: bold;
+color: white;
+position: absolute;
+bottom: 15px;
+left: 15px;
+}
+
+
+
+/*icon-left-other pages*/
+.icon-left-other img {
+display: block;
+}
+
+.other_slider_text p {
+margin: 0;
+margin-left: 15px;
+}
+
+
+
+/*????*/
+.blockquote-wrap {
+ /* text-align: center;
+  position: relative;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Univers LT Pro 65 Bold';
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  color: white;
+}
+
+.icon-right, .icon-left {
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  margin:0 100px;
+
+  }
+
+
+
+.typewriting {
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 24px;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+@media (max-width: 1920px) {
+ .typewriting {
+    font-size: 24px;
+    letter-spacing: 1.8px;
+  }
+}
+
+@media (max-width: 1024px) {
+ .typewriting {
+    font-size: 26px;
+    letter-spacing: 1.6px;
+  }
+}
+
+@media (max-width: 768px) {
+ .typewriting {
+    font-size: 24px;
+    letter-spacing: 1.4px;
+  }
+}
+
+@media (max-width: 418px) {
+ .typewriting {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  }
+}
+
+@media (max-width: 320px) {
+ .typewriting {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*logo */
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+}
+
+/*@media (max-width: 1024px) {
+ .logo {
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  margin: 10px 30px;
+  }
+}*/
+
+
+
+
+
+/*menu*/
+
+.menu {
+  padding-right: 75px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  font-family: 'Univers LT Pro 65 Bold';
+  font-size: 22px;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 24px 32px;
+  text-decoration: none;
+}
+
+.dropbtn::after {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 8px 8px 0 8px;
+border-color: currentColor transparent transparent transparent;
+content: '';
+display: inline-block;
+margin-left: 5px;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: #95CAFF;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #616060;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #616060 }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+
+
+/*burger menu*/
+
+.bar-a, .bar:after, .bar:before, .bar {
+  transition: all 0.45;
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 34px;
+  border-radius: 17px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.menu-collapsed {
+  transition: all 0.35s;
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+  cursor: pointer;
+}
+.menu-collapsed .nav-menu {
+  transition: all 0s;
+  position: fixed;
+  transform: translateX(-90000px);
+  list-style: none;
+}
+.menu-collapsed:hover:not(.menu-expanded) .bar {
+  transition: all 0.25s;
+}
+.menu-collapsed:hover:not(.menu-expanded) .bar:before {
+  transform: translateY(-12px);
+}
+.menu-collapsed:hover:not(.menu-expanded) .bar:after {
+  transform: translateY(12px);
+}
+
+.bar-a-expanded, .menu-expanded .bar:after, .menu-expanded .bar:before, .menu-collapsed:hover:not(.menu-expanded) .bar:before, .menu-collapsed:hover:not(.menu-expanded) .bar:after {
+  transition: all 0.35s;
+  top: 0;
+}
+
+.menu-expanded {
+  transition: all 0.35s;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  line-height: 7vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: 'Univers LT Pro 65 Bold';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+}
+.menu-expanded .nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  transition: all 0.45s;
+  position: relative;
+  transform: translateX(0);
+  z-index: 2;
+}
+.menu-expanded .nav-menu li {
+  animation: 1s fadeInLeft;
+  animation-fill-mode: both;
+  transform: translateX(-200px);
+}
+.menu-expanded .nav-menu li.d2 {
+  animation-delay: 0.2s;
+}
+.menu-expanded .nav-menu li.d3 {
+  animation-delay: 0.3s;
+}
+.menu-expanded .nav-menu li.d4 {
+  animation-delay: 0.4s;
+}
+.menu-expanded a {
+  transition: all 0.65s;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+}
+.menu-expanded a:hover {
+  letter-spacing: 2px;
+ /* border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.15);*/
+}
+.menu-expanded .bar {
+  background-color: transparent;
+  transition: all 0.25s;
+}
+.menu-expanded .bar:before {
+  transform: rotate(45deg);
+}
+.menu-expanded .bar:after {
+  transform: rotate(-45deg);
+}
+
+.bar {
+  position: absolute;
+  left: 12px;
+  top: 26px;
+}
+.bar:before {
+  top: -8px;
+}
+.bar:after {
+  top: 8px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1px;
+  height: 100%;
+}
+main div {
+  width: 80vw;
+  text-align: center;
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translatX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/*menu responsive*/
+
+@media (max-width: 2560px) {
+ .menu-collapsed {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1920px) {
+ .menu-collapsed {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1024px) {
+ .menu-collapsed {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+ .menu > ul {
+    display: none;
+  }
+}
+
+
+/*devider line*/
+
+.devider {
+  background-color: #3954A4;
+  width: 100%;
+  height: 5px;
+  margin:0;
+  
+}
+
+.devider2 {
+  background-color: #3954A4;
+  width: 100%;
+  height: 10px;
+  margin:0;
+  
+}
+
+.devider3 {
+  background-color: #3954A4;
+  width: 100%;
+  height: 45px;
+  margin:0;
+  
+}
+
+
+
+/*  Koolist */
+
+.koolist {
+  margin: 64px 70px;
+}
+
+
+.koolist p{
+  padding-top: 8px;
+  padding-bottom: 15px;
+ font-family: 'Univers LT Pro 45 Light';
+ font-size: 16px;
+ letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.main-text-blok {
+  margin: 64px 70px;
+}
+
+h3 {
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  color: #95CAFF;
+}
+
+.main-text-blok p {
+  padding-top: 8px;
+  padding-bottom: 15px;
+ font-family: 'Univers LT Pro 45 Light';
+ font-size: 16px;
+  letter-spacing: 1px;
+}*/
+
+
+/*mida õpida blokk*/
+
+.mida-opida-main {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:0;
+  
+}
+
+.mida-opida-inner {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+ /* border-right: 0.4px solid #fff;*/
+  max-width: 33.333%;
+  flex: 1 0 33.333%;
+}
+
+
+.mida-opida-inner p {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 32px;
+  letter-spacing: 1.6px;
+  line-height: 35px;
+}
+
+
+.mida-opida-button {
+  text-decoration: none;
+  color: #fff;
+  transition: background-color .18s;
+}
+
+
+.mida-opida-button:hover{
+  background-color: rgba(255,255,255, .25);
+}
+
+@media (max-width: 1190px) {
+ .mida-opida-inner p {
+    font-size: 28px;
+    letter-spacing: 1.4px;
+    line-height: 30px;
+  }
+
+}
+
+
+@media (max-width: 1189px) {
+ .mida-opida-button {
+    font-size: 26px;
+    letter-spacing: 1.4px;
+    line-height: 30px;
+    white-space: nowrap;
+   
+  }
+
+}
+
+.mida-opida-inner img {
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+/*  background-color: rgba(50,74,145, .25);
+  transition: background-color .18s;*/
+  /*background-position: 50% 50%;*/
+ }
+
+
+/* .mida-opida-inner img:hover{
+  background-color: rgba(255,255,255, .25);
+}*/
+
+
+@media (max-width: 961px) {
+ .mida-opida-inner img{
+    display:block;
+    float:left;
+  }
+
+}
+
+@media (max-width: 1124px) {
+ .mida-opida-inner {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  /*border-right: 0.4px solid #fff;*/
+  max-width: 33.33%;
+  flex: 1 0 33.33%;
+  }
+
+}
+
+@media (max-width: 720px) {
+ .mida-opida-inner {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  /*border-right: 0.4px solid #fff;*/
+  max-width: 50%;
+  flex: 1 0 50%;
+  }
+
+}
+
+@media (max-width: 960px) {
+ .mida-opida-inner {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+ /* border-right: 0.4px solid #fff;*/
+  max-width: 100%;
+  flex: 1 0 100%;
+  }
+
+}
+
+
+
+
+
+
+
+/*galerii blokk*/
+
+.galerii-wrap {
+  margin: 80px 70px;
+}
+
+.galerii-wrap img {
+  height: 370px;
+  width: auto;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 -2px;
+  padding: 0;
+}
+
+/* dobavit responsivity*/
+.gallery-list li {
+  padding: 2px;
+  flex: 1 0 25%;
+  max-width: 25%;
+}
+
+.gallery-list li.large {
+  flex: 1 0 50%;
+  max-width: 50%;
+}
+
+.gallery-list figure {
+  position: relative;
+  height: 0;
+  padding-bottom: 114.9%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.gallery-list li.large figure {
+  padding-bottom: 57.18%;
+} 
+
+.gallery-list img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: auto;
+  height: 100%;
+} 
+
+
+
+
+.mida-opida-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 20px 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 315px;
+/* margin: 0 50px;*/
+  color: #95CAFF;
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 18px;
+  letter-spacing: 1.6px;
+  
+}
+
+/*logo*/
+.logo-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-social > img {
+  height: 190px;
+  width: 145px;
+}
+
+
+/*social icons*/
+.social-providers{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.social-providers img{
+  padding: 15px;
+}
+
+/*kasulikud-lingid*/
+
+.kasulikud-lingid, .kontaktid p{
+  font-family: 'Univers LT Pro 45 Light';
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #95CAFF;
+  text-decoration:none;
+}
+
+.kasulikud-lingid a {
+  color: #95CAFF;
+  text-decoration:none;
+}
+
+.map {
+  margin-top: 20px;
+  /*padding-left: 100px;*/
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 150px;
+  
+}
+
+.kasulikud-lingid, .kontaktid {
+  font-family: 'Univers LT Pro 45 Light';
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  
+  
+}
+.kasulikud-lingid, .kontaktid, .map, .logo-social {
+  max-width: 25%;
+  flex: 1 0 25%;
+  position: relative;
+  text-align: center;
+}
+
+
+
+@media (max-width: 960px) {
+ .kasulikud-lingid, .kontaktid, .map, .logo-social {
+  max-width: 50%;
+  flex: 1 0 50%;
+  margin-top: 30px;
+  
+  }
+
+  .kasulikud-lingid {
+    order: 2; 
+  }
+  .logo-social {
+    order: 3; 
+  }
+
+  .map {
+    order: 4;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 180px;
+
+  }
+}
+
+@media (max-width: 772px) {
+ .kasulikud-lingid, .kontaktid, .map, .logo-social {
+  max-width: 100%;
+  flex: 1 0 100%;
+  position: relative;
+  text-align: center;
+  }
+
+  .kasulikud-lingid{
+    order: -1;
+  }
+
+  .kontaktid {
+    order: -2;
+  }
+
+  .map {
+    order:3;
+    /*margin-left: 160px;*/
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 150px;
+  }
+  .logo-social {
+    order: 4;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mida oppida blokk*/
+.mida-oppida {
+  margin: 20px 30px;
+}
+
+
+
+.instrument_left {
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 40px;
+}
+
+.instrument_right {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px; 
+}
+
+
+
+.mida-oppida-text{
+  display: flex;
+  flex-direction: column;
+}
+
+/*???? kuidas joondada  ???*/
+.mida-oppida-text h3 {
+  padding-top: 0px;
+  padding-left: 40px;
+}
+
+
+@media (max-width: 960px) {
+  .mida-oppida-text h3 {
+  padding-top: 18px;
+  padding-left: 0px;
+  }
+
+.mida-oppida-text-left h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+
+
+/*main-text-blokk*/
+
+.main-text-blok {
+  margin: 64px 70px;
+}
+
+h3 {
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 23px;
+  letter-spacing: 1.6px;
+  color: #95CAFF;
+}
+
+.main-text-blok p {
+  padding-top: 8px;
+  padding-bottom: 15px;
+ font-family: 'Univers LT Pro 45 Light';
+ font-size: 20px;
+  letter-spacing: 1.4px;
+}
+
+
+.main-text-blok ul li {
+ font-family: 'Univers LT Pro 45 Light';
+ font-size: 20px;
+ letter-spacing: 1px;
+ float: none;
+}
+
+.main-text-blok ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.main-text-blok ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #95CAFF; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media (max-width: 320px) {
+ .main-text-blok {
+  margin: 26px;
+  }
+.main-text-blok p {
+font-size: 18px;
+letter-spacing: 1px;
+  }
+.main-text-blok ul li {
+ font-size: 18px;
+ letter-spacing: 0.5px;
+  }
+
+}
+
+@media (max-width: 375px) {
+ .main-text-blok {
+  margin: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+ .main-text-blok {
+  margin: 26px;
+  }
+.main-text-blok p {
+font-size: 18px;
+letter-spacing: 1px;
+  }
+.main-text-blok ul li {
+ font-size: 18px;
+ letter-spacing: 1px;
+ 
+  }
+}
+
+@media (max-width: 768px) {
+ .main-text-blok {
+  margin: 32px;
+  }
+.main-text-blok p {
+font-size: 18px;
+letter-spacing: 1px;
+  }
+.main-text-blok ul li {
+ font-size: 18px;
+ letter-spacing: 1px;
+ float: none;
+  }
+}
+
+
+
+/*???? kuidas joondada  ???*/
+.mida-oppida-text p {
+  padding-top: 18px;
+  padding-left: 40px;
+}
+
+.mida-oppida-text-left p {
+  padding-top: 18px;
+  padding-left: 0px;
+  padding-right:18px;
+}
+
+@media (max-width: 960px) {
+  .instrument_right .figure {
+    order: -1;
+  }
+
+  .mida-oppida-text p {
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+
+.instrument_left img {
+  height: 275px;
+  width: 400px;
+  padding-top: 23px;
+}
+
+@media (max-width: 960px) {
+  .instrument_left img {
+      height: auto;
+      width: 100%
+    }
+
+
+  }
+
+.instrument_right img {
+  height: 275px;
+  width: 400px;
+  padding-top: 23px;
+}
+
+.mida-oppida p {
+  font-family: 'Univers LT Pro 45 Light';
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+@media (max-width: 960px) {
+  .instrument_right img {
+      height: auto;
+      width: 100%
+    }
+
+  
+  }
+
+
+
+
+@media (max-width: 960px) {
+
+.mida-oppida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 
+  margin: 28px 10px;
+  font-family: 'Univers LT Pro 45 Light';
+  font-size: 20px;
+  letter-spacing: 1px;
+  }
+
+ .instrument_left {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex: 1 0 100%;
+  
+  }
+
+.instrument_right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex: 1 0 100%;
+  }
+
+
+.mida-oppida-text{
+  max-width: 100%;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+.mida-oppida-text-left{
+  max-width: 100%;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+.mida-oppida-text p {
+  max-width: 100%;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  .mida-oppida-text-left p{
+  max-width: 100%;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kontakt blokk*/
+
+.kontakt-wrap {
+  margin:82px 182px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 900px;
+}
+
+input[type=text] {
+  flex: 1 0 100%;
+  max-width: 100%;
+  height: 80px;
+  border: 3px solid #95CAFF;
+  font-size: 22px;
+  font-family: 'Univers LT Pro 55 Roman';
+  letter-spacing: 2px;
+  color: #95CAFF;
+}
+
+input[type=text] + input[type=text] {
+    margin-top: 30px;
+  }
+
+
+@media (min-width: 992px) {
+  input[type=text] {
+    flex: 1 0 45%;
+  }
+  input[type=text] + input[type=text] {
+    margin-left:30px;
+    margin-top: 0;
+  }
+
+  
+
+}
+
+
+
+/* dodelat!!!!*/
+input::placeholder {
+  color: #95CAFF;
+  padding-left: 20px;
+
+}
+
+textarea{
+  color: #95CAFF;
+  padding-left: 20px;
+  padding-top: 40px;
+
+}
+
+
+input[type=submit] {
+border: 1px solid #95CAFF;
+background-color: #95CAFF;
+width: 300px;
+height: 82px;
+margin-top: 60px;
+color: #fff;
+font-family: 'Univers LT Pro 55 Roman';
+font-size: 22px;
+letter-spacing: 2px;
+transition: background-color .18s;
+}
+
+
+
+
+
+input[type=submit]:hover{
+  background-color: rgba(255,255,255, .25);
+  color: #95CAFF;
+  border: 3px solid #95CAFF;
+}
+
+
+
+/*@media (min-width: 986px) {
+  input[type=submit] {
+  margin-left: 30px;
+  }
+}*/
+
+
+/*.textarea-wrap{
+  display: flex;
+  flex-direction: column;
+}*/
+
+textarea {
+width: 100%;
+flex: 1 0 100%;
+height: 1;
+height: 250px;
+border: 3px solid #95CAFF;
+color: #95CAFF;
+font-family: 'Univers LT Pro 55 Roman';
+font-size: 22px;
+margin-top: 60px;
+}
+
+
+
+
+
+
+.error{
+  padding:20px 40px;
+  width: 100%;
+  height: auto;
+  color: red;
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 22px;
+  border: 1px solid red;
+  content:'Täedke !';
+
+}
+
+.d-none {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*vota uhendus blokk*/
+
+.vota-uhendus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: #95CAFF;
+  color: #fff;
+  
+}
+
+.vota-uhendus h2{
+  font-family: 'Univers LT Pro 55 Roman';
+  letter-spacing: 1.6px;
+  font-size: 40px;
+  letter-spacing: 1px;
+
+}
+
+.vota-uhendus-button{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  padding: 20px 70px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.vota-uhendus-button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+.vota-uhendus-button {
+  text-decoration: none;
+  color: #fff;
+  transition: background-color .18s;
+}
+
+
+
+
+
+.vota-uhendus-button a:hover{
+  color: #95CAFF;
+}
+
+.vota-uhendus-button:hover{
+  background-color: #fff;
+  color: #95CAFF;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.3px;
+  font-size: 32px;
+  text-align: center;
+  }
+
+}
+
+
+@media (max-width: 960px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.2px;
+  font-size: 28px;
+  text-align: center;
+  }
+
+}
+
+@media (max-width: 720px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.1px;
+  font-size: 22px;
+  text-align: center;
+  }
+
+}
+
+@media (max-width: 580px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.1px;
+  font-size: 18px;
+  text-align: center;
+  }
+
+}
+
+@media (max-width: 414px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.1px;
+  font-size: 18px;
+  text-align: center;
+  }
+  .vota-uhendus button{
+  
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  padding: 16px 40px;
+  cursor: pointer;
+  margin-top: 2em;
+  }
+
+}
+
+@media (max-width: 375px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.1px;
+  font-size: 16px;
+  text-align: center;
+  }
+
+  .vota-uhendus button{
+  
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  padding: 16px 45px;
+  cursor: pointer;
+  margin-top: 2em;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+ .vota-uhendus h2{
+  letter-spacing: 1.1px;
+  font-size: 14px;
+  text-align: center;
+  }
+
+  .vota-uhendus button{
+  
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  padding: 14px 40px;
+  cursor: pointer;
+  margin-top: 2em;
+  }
+
+}
+
+
+
+
+.vota-uhendus2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: none;
+  color: #fff;
+  
+}
+
+.vota-uhendus-button2{
+  background-color: transparent;
+  border: 2px solid #95CAFF;
+  color: #95CAFF;
+  font-family: 'Univers LT Pro 55 Roman';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  padding: 20px 70px;
+  cursor: pointer;
+}
+
+
+.vota-uhendus2 button:hover{
+  background-color: #95CAFF;
+  color: #fff;
+  border: 2px solid #95CAFF;
+}
+
+
+
+.small-slider img {
+  max-width: 800px;
+  max-height: 520px;
+
+}
+
+
