@@ -1292,9 +1292,8 @@ font-family: 'Univers LT Pro 55 Roman';
 font-size: 22px;
 letter-spacing: 2px;
 transition: background-color .18s;
- border-radius:0; 
--webkit-border-radius:0; 
--moz-border-radius:0;
+-webkit-appearance: none;
+     border-radius: 0;
 }
 
 
@@ -1305,9 +1304,8 @@ input[type=submit]:hover{
   background-color: rgba(255,255,255, .25);
   color: #95CAFF;
   border: 3px solid #95CAFF;
- border-radius:0; 
--webkit-border-radius:0; 
--moz-border-radius:0;
+-webkit-appearance: none;
+     border-radius: 0;
 }
 
 
