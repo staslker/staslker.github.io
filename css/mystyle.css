@@ -812,6 +812,11 @@ h3 {
   text-decoration:none;
 }
 
+.kontaktid a {
+  color: #95CAFF;
+  text-decoration:none;
+}
+
 .map {
   margin-top: 20px;
   /*padding-left: 100px;*/
