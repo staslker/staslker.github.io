@@ -1224,6 +1224,8 @@ letter-spacing: 1px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+ -webkit-appearance: none;
+     border-radius: 0;
 
 }
 
@@ -1233,6 +1235,8 @@ flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
 max-width: 900px;
+ -webkit-appearance: none;
+     border-radius: 0;
 }
 
 input[type=text] {
@@ -1244,6 +1248,8 @@ input[type=text] {
   font-family: 'Univers LT Pro 55 Roman';
   letter-spacing: 2px;
   color: #95CAFF;
+ -webkit-appearance: none;
+     border-radius: 0;
 }
 
 input[type=text] + input[type=text] {
