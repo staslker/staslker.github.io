@@ -1235,8 +1235,8 @@ flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
 max-width: 900px;
- -webkit-appearance: none;
-     border-radius: 0;
+-webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 input[type=text] {
@@ -1248,8 +1248,8 @@ input[type=text] {
   font-family: 'Univers LT Pro 55 Roman';
   letter-spacing: 2px;
   color: #95CAFF;
- -webkit-appearance: none;
-     border-radius: 0;
+-webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 input[type=text] + input[type=text] {
@@ -1299,7 +1299,7 @@ font-size: 22px;
 letter-spacing: 2px;
 transition: background-color .18s;
 -webkit-appearance: none;
-     border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
 
@@ -1311,7 +1311,7 @@ input[type=submit]:hover{
   color: #95CAFF;
   border: 3px solid #95CAFF;
 -webkit-appearance: none;
-     border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
 
